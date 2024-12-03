@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Нежно голубой цвет фона */
+    color: #000000; /* Цвет текста */
+    margin: 30px;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB; /* Розовый цвет фона кнопок */
+    color: white; /* Белый цвет текста на кнопках */
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px; /* Закругление углов кнопок */
+    border: 2px solid #ff4564; /* Контур кнопок */
+}
+
+nav a:hover {
+    background-color: #ff1493; /* Изменение цвета фона при наведении */
+    color: white; /* Изменение цвета текста при наведении */
+    text-decoration: none; /* Удаление подчеркивания при наведении */
+}
+
+.header {
+    text-align: center; /* Центрирует изображение */
+    padding: 25px;
+}
+
+.header-img {
+    display: block;
+    margin: auto;
+    width: 95%; /* Уменьшает ширину изображения на 20% */
+    height: auto; /* Автоматическое расчет высоты */
+}
+
+h1 {
+    color: #4682b4; /* Цвет заголовка */
+}
+
+ul {
+    list-style-type: square;
+}
+
+h2 {
+    color: #4682b4; /* Цвет заголовка */
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #4682b4; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #e7e4e4;
+    width: 20%;
+}
+
+.service-img {
+    display:flex;
+    margin: auto;
+    width: 70%; 
+    height: auto; 
+}
+
+.img{
+    display: flex;
+    margin: auto;
+    width: 120px;
+    height: auto;
+
+}
+
+
