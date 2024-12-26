@@ -1,1 +1,1 @@
-# lashes2.github.io
+# lashes2
